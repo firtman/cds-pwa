@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="app.webmanifest">
+ 
+<script src="js/handlers.js" defer></script>
+<script src="js/app.js" defer></script>
+
+<title>Activity Launcher</title>
+
+<h1>Loading... ⏳</h1>
+
+
+<ul id="shortcuts"></ul>
+
+<!--
+   README:
+   ======
+   This webapp takes the data/activities.json file and render a collection of icons that can trigger different activities using deep links for different native apps, such as messaging, maps, browsers, and more.
+   Check or update the list of available types at js/handlers.js. 
+   Each activity needs a type, a name and an optional icon. If no icon is provided, a default icon for that type is used. Based on the type, several other values are expected, such as "url" for a link, or "place" for a map. These variables are declared in each time in js/handlers.js.
+   Run this app in a web server, don't open it from the filesystem. Use 'npx serve' for a simple web server.
+-->

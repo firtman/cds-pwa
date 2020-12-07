@@ -1,0 +1,91 @@
+body {
+    --color-back: white;
+    --color-title: rgb(7, 155, 163);
+    --color-theme: #bb7162;
+    --color-icon-front: whitesmoke;
+    --color-toolbar: rgb(7, 155, 163);
+    --color-toolbar-button: white;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v67/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--color-back);
+}
+h1 {
+    font-size: x-large;
+    text-align: center;
+    color: var(--color-title)
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+}
+
+#shortcuts {
+    flex-wrap: wrap;
+	align-items: stretch;
+    align-content: center;
+	justify-content: space-evenly;
+}
+
+#shortcuts p {
+    font-size: small;
+}
+
+#shortcuts a { 
+    width: 80px;
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color: var(--color-theme)
+}
+
+#shortcuts .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    border-radius: 15px;  
+    padding: 15px;
+    margin-bottom: 0px;
+    color: var(--color-icon-front);
+    background-color: var(--color-theme);
+}
+
+#toolbar {
+    flex-wrap: wrap;
+	align-items: stretch;
+    align-content: center;
+    justify-content: space-evenly; 
+    margin: 20px;
+}
+
+#toolbar a {
+    display: block;
+    text-decoration: none;
+    background-color: var(--color-toolbar);
+    color: var(--color-toolbar-button);
+    font-size: 12px;
+    padding: 12px;
+    line-height: 1;
+
+}
