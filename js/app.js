@@ -26,3 +26,5 @@ async function init() {
     }
     document.querySelector("#shortcuts").innerHTML = shortcuts.join("");
 }
+
+let isPWAMode = matchMedia("(display-mode: standalone)").matches

@@ -7,6 +7,10 @@ body {
     --color-toolbar-button: white;
 }
 
+@media (display-mode: standalone) {
+    
+}
+
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
