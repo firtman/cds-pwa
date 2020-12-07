@@ -53,6 +53,7 @@
         },
         {
             "name": "WA: I'm Late!",
+            "icon": "colorize",
             "type": "whatsapp",
             "body": "I'm arriving 15 minutes late"
         },

@@ -1,0 +1,15 @@
+{
+    "name": "Max's Activities Shortcuts",
+    "short_name": "Shortcuts",
+    "start_url": "./",
+    "display": "standalone",
+    "scope": "./",
+    "theme_color": "#bb7162",
+    "icons": [
+        {
+            "src": "icons/icon-1024.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+        }
+    ]
+}
