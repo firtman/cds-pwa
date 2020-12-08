@@ -12,6 +12,11 @@
 
 <script src="js/handlers.js" defer></script>
 <script src="js/app.js" defer></script>
+<script>
+   if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register("serviceworker.js");
+   }
+</script>
 
 <title>Activity Launcher</title>
 

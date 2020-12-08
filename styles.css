@@ -7,6 +7,28 @@ body {
     --color-toolbar-button: white;
 }
 
+@media (-ms-high-contrast: active) {
+    body {
+        --color-back: white;
+        --color-title: rgb(7, 155, 163);
+        --color-theme: #bb7162;
+        --color-icon-front: rgb(41, 38, 38);
+        --color-toolbar: rgb(7, 155, 163);
+        --color-toolbar-button: white;
+    }    
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --color-back: rgb(53, 53, 53);
+        --color-title: rgb(21, 213, 223);
+        --color-theme: #e88f7d;
+        --color-icon-front: rgb(88, 25, 25);
+        --color-toolbar: rgb(15, 219, 230);
+        --color-toolbar-button: white;
+    } 
+}
+
 @media (display-mode: standalone) {
     
 }
