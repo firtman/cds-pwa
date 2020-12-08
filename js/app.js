@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", init);
 
 async function init() {
     let res = await fetch("data/activities.json");
-    let data = await res.json();
+    let data = await res.json(); 
 
     document.title = data.title;
     document.querySelector("h1").innerHTML = data.title;

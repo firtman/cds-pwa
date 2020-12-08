@@ -2,7 +2,7 @@
 class ShortcutHandler {
     constructor(defaultIcon, pattern, variables) {
         this.defaultIcon = defaultIcon;
-        this.pattern = pattern;
+        this.pattern = pattern; 
         this.variables = variables;
     }
     parse(activity) {
